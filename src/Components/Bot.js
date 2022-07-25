@@ -1,16 +1,7 @@
-import './Bot.css'
+import './Bot.css';
 import { Canvas } from 'react-three-fiber';
-
-
-const Box = () => {
-  return (
-    <mesh>
-      <boxBufferGeometry attach="geometry"/>
-      <meshLambertMaterial attach="material" color="hotpink"/>
-    </mesh>
-  );
-};
-
+import BotModel from './BotModel'
+import { Suspense } from 'react';
 
 const Bot = () => {
     return (
@@ -18,7 +9,9 @@ const Bot = () => {
         <Canvas>
           <ambientLight intensity={0.5}/>
           <spotLight position={[10, 15, 10]} angle={0.3} />
-          <Box/>
+          <Suspense fallback={null}>
+            <BotModel/>
+          </Suspense>
         </Canvas>
       </div>
     );
