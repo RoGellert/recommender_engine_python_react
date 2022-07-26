@@ -1,6 +1,6 @@
 import './Bot.css';
 import { Canvas } from 'react-three-fiber';
-import BotModel from './BotModel'
+import Gamepad from './Gamepad.js';
 import { Suspense } from 'react';
 
 const Bot = () => {
@@ -10,7 +10,7 @@ const Bot = () => {
           <ambientLight intensity={0.5}/>
           <spotLight position={[10, 15, 10]} angle={0.3} />
           <Suspense fallback={null}>
-            <BotModel/>
+            <Gamepad/>
           </Suspense>
         </Canvas>
       </div>
