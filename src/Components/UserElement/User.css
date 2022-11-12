@@ -1,0 +1,43 @@
+.user_title {
+    width: auto;
+    text-align: center;
+    font-size: 140%;
+    margin-top: 1px;
+    border-bottom: 1px solid black;
+}
+
+
+.user_element {
+    width:auto;
+    margin: auto;
+    margin-top: 10px;
+
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8c2c2;
+    text-align: center;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    float:right;
+    position: relative;
+}
+
+.user_element:hover {
+    background-color: lightblue;
+}
+
+.horizontal_list_element {
+    display: inline-block;
+    margin-right: 4px;
+    margin-left: 3px;
+    font-size: 110%;
+}
+
+.horizontal_list_element:hover {
+    background-color: #eb1616(73, 20, 60);
+}
+

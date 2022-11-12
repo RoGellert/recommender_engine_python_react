@@ -1,9 +1,9 @@
 import './MainTitle.css'
 
-const MainTitle = () => {
+const MainTitle = (props) => {
     return (
       <div className="title">
-        <h1>RECOMMENDER ENGINE</h1>
+        <h1>{props.name}</h1>
       </div>
     );
 }

@@ -1,0 +1,14 @@
+.main_page {
+    min-width: 100%;
+    min-height: 100%;
+
+    width: auto;
+    height: auto;
+
+    background-color: #b1b1b1;;
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+}
+  

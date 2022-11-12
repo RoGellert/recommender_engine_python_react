@@ -1,0 +1,74 @@
+.singular_beer {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 7px;
+    height: auto;
+    width: 700px;
+    line-height: auto;
+    /* width: auto;
+    margin-top: 19px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgb(223, 89, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 200%;
+    font-weight: bold;
+    display: inline-block;
+    color: rgb(212, 207, 205);
+    padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.singular_beer_left_element {
+    float: left;
+}
+
+
+.singular_beer_right_element {
+    float: right;
+}
+
+.row_element_first {
+    padding-top: 2px;
+    /* border-top: 1px solid rgb(223, 89, 0);
+    border-bottom: 1px solid rgb(223, 89, 0); */
+    height: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: rgb(47, 47, 47);
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 40px;
+    color: rgb(212, 207, 205);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.row_element_after {
+    padding-top: 2px;
+    border-bottom: 1px solid rgb(223, 89, 0);
+    height: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 150%;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 40px;
+    color: #383D40;
+    text-align: center;
+    background-color: rgb(230, 225, 223);
+    vertical-align: middle;
+    align-content: center;
+}
+
+.row_element_first:hover {
+    background-color: rgb(223, 89, 0);
+}
+
+

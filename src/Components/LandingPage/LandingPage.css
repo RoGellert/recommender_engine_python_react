@@ -1,0 +1,39 @@
+.landing_page {
+    /*background-image: url(../public/images/background.png);*/
+    min-height: 100%;
+    min-width: 100%;
+	
+    width: auto;
+    height: auto;
+
+    background-color: rgb(212, 207, 205);
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+}
+
+
+.landing_page_button {
+    font-family: 'Open Sans', sans-serif;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid rgb(223, 89, 0);
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.landing_page_button:hover {
+    background-color: rgb(47, 47, 47);
+    color: rgb(212, 207, 205);
+}
