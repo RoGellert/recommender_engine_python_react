@@ -20,9 +20,6 @@
 
 .menu {
   text-align: center;
-  margin: 0px;
-  margin-top: 0;
-  margin-left: 0;
   font-family: "Open Sans", sans-serif;
   height: 100px;
   background-color: rgb(47, 47, 47);
@@ -31,7 +28,6 @@
 
 .menu_element:hover {
   background-color: rgb(223, 89, 0);
-  
 }
 
 

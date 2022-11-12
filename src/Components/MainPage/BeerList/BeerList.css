@@ -1,77 +1,162 @@
+.left_toggles_menu {
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+
 .beer_list {
+    width: 700px;
+    height: auto;
     margin-left: 23.5%;
     position: relative;
     margin-bottom: 3%;
 }
 
 .text_above_buttons {
+    padding: 5px;
     text-align: center;
-    margin-left: 3%;
     margin-right: 3%;
     width: 325px;
     height: auto;
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
-    border-bottom: 1px solid rgb(223, 89, 0);
+    border: 2px solid rgb(223, 89, 0);
     line-height: 30px;
     position: fixed;
+    border-radius: 15px;
 }
 
-.direction_switch {
+.num_switch {
     position: fixed;
-    margin-top: 5.5%;
-    margin-left: 3%;
+    margin-top: 8.5%;
+    margin-left: 2.15%;
     height: auto;
     width: auto;
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
-    border-bottom: 1px solid rgb(223, 89, 0);
 }
 
 .num_input {
-    margin-top: 1%;
+    margin-top: 4%;
     width: 50px;
     height: 30px;
-    margin-left: 25%;
+    margin-left: 40%;
     border-radius: 15px;
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    align-items: center;
-    border: 1px solid rgb(223, 89, 0);
+    text-align: center;
     margin-bottom: 2%;
-    color: rgb(212, 207, 205);
-    background-color: rgb(47, 47, 47);
+    color: rgb(47, 47, 47);
+    background-color: rgb(212, 207, 205);
+    font-weight: bold;
+    font-size: 140%;
 }
 
-.submit_button {
-    margin-left: 1%;
-    text-align: center;
+.review_num_switch {
+    position: fixed;
+    margin-top: 12.5%;
+    margin-left: 1.95%;
+    height: auto;
+    width: auto;
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
-    height: 30%;
-    width: 30%;
-    color: rgb(212, 207, 205);
-    background-color: rgb(47, 47, 47);
-    border: 1px solid rgb(223, 89, 0);
 }
 
-
-.submit_button:hover {
-    background-color: rgb(223, 89, 0);
+.review_num_input {
+    margin-top: 4%;
+    width: 50px;
+    height: 30px;
+    margin-left: 40%;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    align-items: center;
+    margin-bottom: 2%;
+    color: rgb(47, 47, 47);
+    background-color: rgb(212, 207, 205);
+    font-weight: bold;
+    font-size: 140%;
 }
 
 .toggles {
     position: fixed;
-    margin-top: 10%;
-    margin-left: 6.5%;
+    margin-top: 16.5%;
+    margin-left: 3.75%;
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 
 .toggles_element {
     width: auto;
     margin-top: 2%;
+    line-height: 70%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid rgb(223, 89, 0);
+    font-size: 100%;
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.right_side {
+    margin-top: -0.5%;
+    position: fixed;
+    margin-left: 63%;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.right_side_button {
+    margin-top: 15px;
+    width: 200px;
+    height: auto;
+    line-height: 70%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid rgb(223, 89, 0);
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 150%;
+}
+
+.right_side_text {
+    width: auto;
+    height: auto;
+    letter-spacing: 1px;
+    font-size: 100%;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    font-size: 110%;
+}
+
+.right_side_button:hover {
+    background-color: rgb(47, 47, 47);
+    color: rgb(212, 207, 205);
+}
+
+.toggles_element_text {
+    margin-top: 5%;
+    margin-left: 9px;
+}
+
+
+.toggles_element:hover {
+    background-color: rgb(47, 47, 47);
+    color: rgb(212, 207, 205);
+}
+
+
+.beer_fetch {
+    width: auto;
     line-height: 70%;
     letter-spacing: 1px;
     text-decoration: none;
@@ -82,16 +167,11 @@
     font-weight: bold;
     display: block;
     padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 75%;
 }
 
-
-.toggles_element_text {
-    margin-top: 10%;
-    margin-left: 9px;
-}
-
-
-.toggles_element:hover {
+.beer_fetch:hover {
     background-color: rgb(47, 47, 47);
     color: rgb(212, 207, 205);
 }

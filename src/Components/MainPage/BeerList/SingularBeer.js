@@ -19,7 +19,7 @@ const SingularBeer = (props) => {
     return (
       <div className="singular_beer">
         <div className="row_element_first" onClick={Expand}>
-          <p1 className="singular_beer_left_element">{props.top_pos}</p1>
+          <p1 className="singular_beer_left_element">{props.top_pos + ' ' + props.rating}</p1>
           <p1 className="singular_beer_right_element">{props.beer_name}</p1>
         </div>
       </div>

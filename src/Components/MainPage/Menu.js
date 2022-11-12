@@ -5,9 +5,9 @@ const Menu = (props) => {
     <div className="menu">
       <ul>
         <li className="menu_element" onClick={props.toggleLandingPageOn}>LANDING PAGE</li>
-        <li className="menu_element">BEER LIST</li>
-        <li className="menu_element">USER LIST</li>
-        <li className="menu_element">RECOMMENDATIONS</li>
+        <li className="menu_element" onClick={props.toggleBeerList}>BEER LIST</li>
+        <li className="menu_element" onClick={props.toggleUserList}>USER LIST</li>
+        <li className="menu_element" onClick={props.toggleRecommendationList}>RECOMMENDATIONS</li>
       </ul>
     </div>
   );

@@ -1,9 +1,10 @@
-.singular_beer {
+.singular_user {
     font-family: "Open Sans", sans-serif;
     margin-top: 7px;
     height: auto;
-    width: 700px;
+    width: 400px;
     line-height: auto;
+    position: relative;
     /* width: auto;
     margin-top: 19px;
     line-height: 60px;
@@ -22,12 +23,12 @@
     padding-right: 10px; */
 }
 
-.singular_beer_left_element {
+.singular_user_left_element {
     float: left;
 }
 
 
-.singular_beer_right_element {
+.singular_user_right_element {
     float: right;
 }
 

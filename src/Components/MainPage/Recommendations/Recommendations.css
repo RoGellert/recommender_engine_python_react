@@ -1,0 +1,39 @@
+.recommendation_page {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.left_side {
+    float: left;
+    position: fixed;
+    margin-left: 1%;
+    padding: 6px;
+}
+
+
+
+.lists {
+    margin-left: 23.4%;
+    margin-right: 1.5%;
+    float: right;
+}
+
+
+
+.reviewed_list {
+    width: 700px;
+    height: auto;
+    position: relative;
+    float: left;
+    padding: 6px;
+}
+
+
+.recommended_list  {
+    width: 700px;
+    height: auto;
+    position: relative;
+    float: right;
+    padding: 6px;
+}
