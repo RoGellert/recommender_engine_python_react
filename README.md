@@ -1,6 +1,8 @@
 # Full-stack react app
 
-## The app allows viewing the recommended by various collaborative algorithms items (Pre-computed values and predictions but with SQL change and necessary infrastructure setup able to dynamically compute the values and predictions)
+## The app allows viewing the recommended by various collaborative algorithms items (Pre-computed values and predictions but with SQL change and necessary infrastructure setup able to dynamically compute the values and predictions). 
+
+## It can get info about all items and users from the initial dataset, 200 pre-trained predictions by each of 10 models for 15 users with low review count, 15 with medium review count, 15 with high review count and myself initially added to the dataset.
 
 ## Models, FLASK backend and database creation are in the python_files folder as ipynb jupyter files
 
