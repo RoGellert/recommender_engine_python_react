@@ -10,4 +10,8 @@ The app allows viewing the recommended by various collaborative algorithms items
 
 ![image](https://user-images.githubusercontent.com/87701714/207077121-1fdf9c36-16b4-47de-8ba0-b6b9a235d2cf.png)
 
+![image](https://user-images.githubusercontent.com/87701714/207077390-0c1b37a2-8450-4c50-92c2-479c199411fa.png)
+
+![image](https://user-images.githubusercontent.com/87701714/207077448-58c5fbfa-35b5-457e-a210-24c70b591b27.png)
+
 
