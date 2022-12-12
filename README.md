@@ -1,4 +1,4 @@
-# Full-stack react app
+# Full-stack react app to see the result of collaborative filteiring estimations 
 
 ### The app allows viewing the recommended by various collaborative algorithms items (Pre-computed values and predictions but with SQL change and necessary infrastructure setup able to dynamically compute the values and predictions). 
 
