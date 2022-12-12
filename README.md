@@ -2,7 +2,7 @@
 
 ## The app allows viewing the recommended by various collaborative algorithms items (Pre-computed values and predictions but with SQL change and necessary infrastructure setup able to dynamically compute the values and predictions)
 
-## Models, FLASK backend and database creation is in the python_fyles as ipynb jupyter files
+## Models, FLASK backend and database creation is in the python_files folder as ipynb jupyter files
 
 ![image](https://user-images.githubusercontent.com/87701714/207076818-dffd4baf-4736-4507-b7b3-06549264f133.png)
 
