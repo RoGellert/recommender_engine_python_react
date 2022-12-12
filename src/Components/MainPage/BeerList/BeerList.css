@@ -1,6 +1,137 @@
-.left_toggles_menu {
-    margin-top: 1%;
-    margin-left: 3%;
+.beer_glass {
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    float: right;
+    background-color: rgb(47, 47, 47);
+    margin-left: 70%;
+}
+
+.left_menu {
+    margin-left: 2%;
+    margin-top: 1px;
+    float: left;
+    background-color: rgb(47, 47, 47);
+    height: auto;
+    width: 20%;
+    position: fixed;
+    border-radius: 20px;
+    color: rgb(212, 207, 205);
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    border: 2px solid rgb(223, 89, 0);
+    font-size: 105%;
+}
+
+
+.text_above_buttons {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 110%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(223, 89, 0);
+    border-radius: 15px;
+}
+
+.text_above_buttons_text {
+  display: block;
+}
+
+
+.input_fields {
+    /* border-bottom: 1px solid rgb(223, 89, 0); */
+}
+
+.input_field {
+    width: 100%;
+    height: 30px;
+}
+
+.input_field_number {
+    font-size: 110%;
+    text-align: center;
+    background-color: rgb(47, 47, 47);
+    color: rgb(212, 207, 205);
+    float: right;
+    width: 30px;
+    height: auto;
+    margin-top: 0.75%;
+    margin-right: 65px;
+}
+
+.input_field_text {
+    font-size: 110%;
+    text-align: center;
+    float: left;
+    margin-left: 70px;
+}
+
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.toggles_menu {
+    font-size: 105%;
+    text-align: center;
+}
+
+.toggles_element {
+    font-size: 120%;
+    display: block;
+}
+
+.input_fields_text {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    /* border-bottom: 1px solid rgb(223, 89, 0);
+    border-top: 1px solid rgb(223, 89, 0); */
+    border-radius: 15px;
+}
+
+
+.toggles_element_text {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* border-bottom: 1px solid rgb(223, 89, 0);
+    border-top: 1px solid rgb(223, 89, 0); */
+    border-radius: 15px;
+}
+
+.toggles_menu_sort {
+    /* border-top: 1px solid rgb(223, 89, 0); */
+}
+
+.sort {
+    /* border-bottom: 1px solid rgb(223, 89, 0); */
+}
+
+.refresh {
+    /* border-top: 1px solid rgb(223, 89, 0); */
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid rgb(223, 89, 0);
+}
+
+
+.order {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* border-top: 1px solid rgb(223, 89, 0);
+    border-bottom: 1px solid rgb(223, 89, 0); */
+}
+
+.toggles_element:hover {
+    background-color: rgb(223, 89, 0);
 }
 
 
@@ -10,168 +141,24 @@
     margin-left: 23.5%;
     position: relative;
     margin-bottom: 3%;
+    margin-top: 10px;
 }
 
-.text_above_buttons {
-    padding: 5px;
-    text-align: center;
-    margin-right: 3%;
-    width: 325px;
-    height: auto;
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-    border: 2px solid rgb(223, 89, 0);
-    line-height: 30px;
-    position: fixed;
-    border-radius: 15px;
+.descr_text_beers {
+  width: auto;
+  height: auto;
+  background-color: brown;
+  position: fixed;
+  margin-left: 61%;
+  margin-top: 1px;
+  background-color: rgb(47, 47, 47);
+  border-radius: 20px;
+  color: rgb(212, 207, 205);
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid rgb(223, 89, 0);
+  text-align: center;
+  font-size: 120%;
+  padding: 10px;
 }
 
-.num_switch {
-    position: fixed;
-    margin-top: 8.5%;
-    margin-left: 2.15%;
-    height: auto;
-    width: auto;
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-}
-
-.num_input {
-    margin-top: 4%;
-    width: 50px;
-    height: 30px;
-    margin-left: 40%;
-    border-radius: 15px;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
-    margin-bottom: 2%;
-    color: rgb(47, 47, 47);
-    background-color: rgb(212, 207, 205);
-    font-weight: bold;
-    font-size: 140%;
-}
-
-.review_num_switch {
-    position: fixed;
-    margin-top: 12.5%;
-    margin-left: 1.95%;
-    height: auto;
-    width: auto;
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-}
-
-.review_num_input {
-    margin-top: 4%;
-    width: 50px;
-    height: 30px;
-    margin-left: 40%;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    align-items: center;
-    margin-bottom: 2%;
-    color: rgb(47, 47, 47);
-    background-color: rgb(212, 207, 205);
-    font-weight: bold;
-    font-size: 140%;
-}
-
-.toggles {
-    position: fixed;
-    margin-top: 16.5%;
-    margin-left: 3.75%;
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-
-.toggles_element {
-    width: auto;
-    margin-top: 2%;
-    line-height: 70%;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
-    border: 1px solid rgb(223, 89, 0);
-    font-size: 100%;
-    font-weight: bold;
-    display: block;
-    padding: 20px;
-    border-radius: 7px;
-}
-
-.right_side {
-    margin-top: -0.5%;
-    position: fixed;
-    margin-left: 63%;
-    font-family: "Open Sans", sans-serif;
-}
-
-
-.right_side_button {
-    margin-top: 15px;
-    width: 200px;
-    height: auto;
-    line-height: 70%;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    border: 1px solid rgb(223, 89, 0);
-    text-align: center;
-    font-size: 100%;
-    font-weight: bold;
-    display: block;
-    padding: 15px;
-    border-radius: 7px;
-    font-size: 150%;
-}
-
-.right_side_text {
-    width: auto;
-    height: auto;
-    letter-spacing: 1px;
-    font-size: 100%;
-    font-weight: bold;
-    display: block;
-    padding: 10px;
-    font-size: 110%;
-}
-
-.right_side_button:hover {
-    background-color: rgb(47, 47, 47);
-    color: rgb(212, 207, 205);
-}
-
-.toggles_element_text {
-    margin-top: 5%;
-    margin-left: 9px;
-}
-
-
-.toggles_element:hover {
-    background-color: rgb(47, 47, 47);
-    color: rgb(212, 207, 205);
-}
-
-
-.beer_fetch {
-    width: auto;
-    line-height: 70%;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    border: 1px solid rgb(223, 89, 0);
-    font-size: 100%;
-    font-weight: bold;
-    display: block;
-    padding: 20px;
-    font-family: "Open Sans", sans-serif;
-    margin-left: 75%;
-}
-
-.beer_fetch:hover {
-    background-color: rgb(47, 47, 47);
-    color: rgb(212, 207, 205);
-}

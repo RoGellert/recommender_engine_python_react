@@ -53,8 +53,8 @@ const SingularUser = (props) => {
           <p1 className="singular_user_right_element">{props.taste_mean}</p1>
         </div>
         <div className="row_element_after">
-          <p1 className="singular_user_left_element">taste mean</p1>
-          <p1 className="singular_user_right_element">{props.taste_mean}</p1>
+          <p1 className="singular_user_left_element">aroma mean</p1>
+          <p1 className="singular_user_right_element">{props.aroma_mean}</p1>
         </div>
         <div className="row_element_after">
           <p1 className="singular_user_left_element">beer abv mean</p1>

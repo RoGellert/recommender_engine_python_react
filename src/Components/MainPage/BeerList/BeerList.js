@@ -1,13 +1,16 @@
 import SingularBeer from "./SingularBeer";
 import { useState, useEffect } from "react";
 import "./BeerList.css";
+// import { Canvas } from "react-three-fiber";
+// import { Suspense } from 'react';
+// import Beer1 from '../../3dModels/Beer1'
 
 const BeerList = (props) => {
   const [beerArray, setBeerArray] = useState([]);
-  const [number_to_return, setNumberToReturn] = useState(17);
+  const [number_to_return, setNumberToReturn] = useState(18);
   const [direction, setDirection] = useState("DESC");
   const [type, setType] = useState("overall_mean_lower");
-  const [min_review_num, setMinReviewNum] = useState(15);
+  const [min_review_num, setMinReviewNum] = useState(20);
 
 
   const FetchBeerArray = () => {
@@ -77,66 +80,76 @@ const BeerList = (props) => {
 
   return (
     <div>
-      <div className="right_side">
-        <div className="right_side_text">
-        <h2>BEER LIST</h2>
-        <p>Here you can see and sort all the beers available in the database
-          <br/> Click refresh to rerender the beer list
-          <br/>By default sorted by lower boudry of the confidence interval 
-          <br/>with respect to overall_mean</p>
-          <li className="right_side_button" onClick={FetchBeerArray}>REFRESH</li>
-        </div>
-      </div>
-      <div className="left_toggles_menu">
-        <div className="num_switch">
-          <h3>Number of beers to receive</h3>
-          <input
-            className="num_input"
-            value={number_to_return}
-            type="number"
-            onChange={changeNumToReceive}
-          ></input>
-        </div>
-        <div className="review_num_switch">
-          <h3>Minimum number of reviews</h3>
-          <input
-            className="review_num_input"
-            value={min_review_num}
-            type="number"
-            onChange={changeMinReviewNum}
-          ></input>
-        </div>
+      {/* <div className="beer_glass">
+        <Canvas orthographic camera={{ zoom: 50, position: [0, 0, 100]}}>
+          <ambientLight intensity={1}/>
+          <Suspense fallback={null}>
+            <Beer1 scale={[15,15,15]} rotation={[1,1,0]}/>
+          </Suspense>
+        </Canvas>
+      </div> */}
+      <div className="left_menu">
         <div className="text_above_buttons">
-          <h3>
+          <li className="text_above_buttons_text">
             Sorting in {direction}ending order
             <br />
-          </h3>
-          <h3>
+          </li>
+          <li className="text_above_buttons_text">
             Taking first {number_to_return} beers
             <br />
-          </h3>
-          <h3>
+          </li >
+          <li className="text_above_buttons_text">
             Filtering by {type}
             <br />
-          </h3>
-          <h3>
+          </li>
+          <li className="text_above_buttons_text">
             Taking beers reviewed {'>'} {min_review_num} times
-          </h3>
+          </li>
         </div>
-        <div className="toggles">
-          <ul>
-            <li className="toggles_element" onClick={toggle_DIRECTION}>CHANGE ORDER</li>
-            <h3 className="toggles_element_text">COLUMN TO SORT BY:</h3>
-            <li className="toggles_element" onClick={toggle_LOWER_CI_SORTING}>MEAN LOWER CI</li>
-            <li className="toggles_element" onClick={toggle_REVIEW_NUM_SORTING}>REVIEW NUM</li>
-            <li className="toggles_element" onClick={toggle_OVERALL_MEAN_SORTING}>OVERALL MEAN</li>
-            <li className="toggles_element" onClick={toggle_APPEARANCE_MEAN_SORTING}>APPEARANCE MEAN</li>
-            <li className="toggles_element" onClick={toggle_PALATE_MEAN_SORTING}>PALATE MEAN</li>
-            <li className="toggles_element" onClick={toggle_TASTE_MEAN_SORTING}>TASTE MEAN</li>
-            <li className="toggles_element" onClick={toggle_BEER_ABV_SORTING}>BEER ABV</li>
+        <h2 className="input_fields_text">TOGGLE SOME VALUES:</h2>
+        <div className="input_fields">
+          <div className="input_field">
+            <div className="input_field_text">Beers to receive :</div>
+            <input
+              className="input_field_number"
+              value={number_to_return}
+              type="number"
+              onChange={changeNumToReceive}
+            ></input>
+          </div>
+          <div className="input_field">
+            <div className="input_field_text">Min num of reviews :</div>
+            <input
+              className="input_field_number"
+              value={min_review_num}
+              type="number"
+              onChange={changeMinReviewNum}
+            ></input>
+          </div>
+        </div>
+        <div className="toggles_menu">
+          <h2 className="toggles_element_text">SWITCH ORDER:</h2>
+          <li className="toggles_element order" onClick={toggle_DIRECTION}>REVERSE ORDER</li>
+          <h2 className="toggles_element_text">COLUMN TO SORT BY:</h2>
+          <ul className="toggles_menu_sort">
+            <li className="toggles_element sort" onClick={toggle_LOWER_CI_SORTING}>MEAN LOWER CI</li>
+            <li className="toggles_element sort" onClick={toggle_REVIEW_NUM_SORTING}>REVIEW NUM</li>
+            <li className="toggles_element sort" onClick={toggle_OVERALL_MEAN_SORTING}>OVERALL MEAN</li>
+            <li className="toggles_element sort" onClick={toggle_APPEARANCE_MEAN_SORTING}>APPEARANCE MEAN</li>
+            <li className="toggles_element sort" onClick={toggle_PALATE_MEAN_SORTING}>PALATE MEAN</li>
+            <li className="toggles_element sort" onClick={toggle_TASTE_MEAN_SORTING}>TASTE MEAN</li>
+            <li className="toggles_element sort" onClick={toggle_BEER_ABV_SORTING}>BEER ABV</li>
           </ul>
-          {/* <li className="beer_fetch" onClick={FetchBeerArray}>{'GET BEER (FETCH FROM DB)'}</li> */}
+          <h2 className="toggles_element_text">GET BEER FROM DB:</h2>
+          <li className="toggles_element refresh" onClick={FetchBeerArray}>REFRESH</li>
         </div>
+      </div>
+      <div className="descr_text_beers">
+          <h2>Beer list</h2>
+          <p>Here you can see the full list of beers</p>
+          <p>Press refresh to fetch the items from the database</p>
+          <p>By the default sorting by the confidence inteval lower boundary</p>
+          <p>You can change the value to sort by, order of sorting, number of items to receive and minimal number of reviews to be given to an item</p>
       </div>
       <div className="beer_list">
         {beerArray.map((beer, index) => (
@@ -164,3 +177,4 @@ const BeerList = (props) => {
 };
 
 export default BeerList;
+

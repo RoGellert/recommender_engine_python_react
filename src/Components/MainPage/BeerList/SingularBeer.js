@@ -3,7 +3,7 @@ import "./SingularBeer.css";
 
 const SingularBeer = (props) => {
 
-  const google_link = 'https://www.google.com/search?q='+props.brewery_name+' '+props.beer_name
+  const google_link = 'https://www.google.com/search?q=' + props.brewery_name + ' ' + props.beer_name
 
   const [isExpanded, ExpandElement] = useState(false);
 
@@ -28,7 +28,7 @@ const SingularBeer = (props) => {
     return (
         <div className="singular_beer" >
           <div className="row_element_first" onClick={Expand}>
-            <p1 className="singular_beer_left_element">{props.top_pos}</p1>
+            <p1 className="singular_beer_left_element">{props.top_pos + ' ' + props.rating}</p1>
             <p1 className="singular_beer_right_element">{props.beer_name}</p1>
           </div>
           <div className="row_element_after">
@@ -60,6 +60,10 @@ const SingularBeer = (props) => {
             <p1 className="singular_beer_right_element">{props.taste_mean}</p1>
           </div>
           <div className="row_element_after">
+            <p1 className="singular_beer_left_element">aroma_mean :</p1>
+            <p1 className="singular_beer_right_element">{props.aroma_mean}</p1>
+          </div>
+          <div className="row_element_after">
             <p1 className="singular_beer_left_element">lower ci score :</p1>
             <p1 className="singular_beer_right_element">{props.overall_mean_lower}</p1>
           </div>
@@ -77,3 +81,4 @@ const SingularBeer = (props) => {
 };
 
 export default SingularBeer;
+

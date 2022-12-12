@@ -1,6 +1,6 @@
 import './TitleScreenModel.css';
 import { Canvas } from 'react-three-fiber';
-import MagnifyingGlass from './MagnifyingGlass'
+import MagnifyingGlass from '../3dModels/MagnifyingGlass'
 import { Suspense } from 'react';
 //import Triangle from './Triangle'
 

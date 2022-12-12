@@ -1,16 +1,126 @@
 .recommendation_page {
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
-    text-align: center;
 }
 
 .left_side {
     float: left;
     position: fixed;
-    margin-left: 1%;
-    padding: 6px;
+    margin-left: 2%;
+    background-color: rgb(47, 47, 47);
+    color: rgb(212, 207, 205);
+    width: 400px;
+    margin-top: 53px;
+    border-radius: 20px;
+    border: 2px solid rgb(223, 89, 0);
+    height: auto;
 }
 
+.center_text {
+    text-align: center;
+    font-size: 150%;
+}
+
+.expendable_lists_margin {
+    margin-top: 30px;
+}
+
+.expendable_lists {
+    margin-top: 6px;
+    width: 400px;
+    height: auto;
+    border-color: black;
+    border-radius: 1px;
+}
+
+.input_text {
+    float: left;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 12px;
+    font-size: 150%;
+    margin-left: 50px;
+}
+
+.input_fields_2 {
+    margin-top: 20px;
+}
+
+.input_field_main {
+    width: 400px;
+    height: 60px;
+}
+
+.input_field_number_2 {
+    position: relative;
+    font-size: 160%;
+    width: 50px;
+    height: 60px;
+    float: right;
+    vertical-align: top;
+    margin: 0; 
+    background-color: rgb(47, 47, 47);
+    color: rgb(212, 207, 205);
+    border-radius: 15px;
+    margin-right: 40px;
+}
+
+.refresh_1 {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 200%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid rgb(223, 89, 0);
+    font-weight: bold;
+    background-color: rgb(47, 47, 47);
+    color: rgb(212, 207, 205);
+    text-align: center;
+    width: auto;
+    margin-top: 0;
+}
+
+.list_buttons_background1 {
+    background-color: rgb(47, 47, 47);
+    color: rgb(212, 207, 205);
+}
+
+.list_buttons_background2 {
+    background-color: rgb(230, 225, 223);
+    color: #383D40;
+}
+
+
+.expendable_list_buttons {
+    margin-top: 8px;
+    /* border-top: 1px solid rgb(223, 89, 0);
+    border-bottom: 1px solid rgb(223, 89, 0); */
+    height: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 150%;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+}
+
+
+.list_buttons_background1:hover {
+    background-color: rgb(223, 89, 0);
+}
+
+.list_buttons_background2:hover {
+    background-color: rgb(223, 89, 0);
+}
+
+.refresh_1:hover {
+    background-color: rgb(223, 89, 0);
+}
 
 
 .lists {

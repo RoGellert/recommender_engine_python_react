@@ -13,7 +13,7 @@ const TitleScreenUpper = (props) => {
                     marginTop:'-7%',
                     textAlign: 'center',
                     width:'auto'}}>A simplistic recommender system <br>
-          </br> based on matrix factorisation</p>
+          </br></p>
       </div>
     );
 }

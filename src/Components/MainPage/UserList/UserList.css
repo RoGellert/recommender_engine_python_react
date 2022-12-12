@@ -5,3 +5,27 @@
     position: relative;
     margin-bottom: 3%;
 }
+
+.user_list_margin {
+    margin-top: 0.5%;
+}
+
+.descr_text_users {
+    width: auto;
+    height: auto;
+    background-color: brown;
+    position: fixed;
+    margin-left: 47%;
+    margin-top: 1px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 20px;
+    color: rgb(212, 207, 205);
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    border: 2px solid rgb(223, 89, 0);
+    text-align: center;
+    font-size: 120%;
+    padding: 10px;
+    margin-right: 3%;
+  }
+  
