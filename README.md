@@ -1,12 +1,12 @@
 # Comparison of collaborative filtering frameworks and models + Simple Web app
 
-### The app allows viewing the recommended items by various collaborative algorithms (Pre-computed values)
+ The app allows viewing the recommended items by various collaborative algorithms (Pre-computed values)
 
-### It can get info about all items and users from the initial dataset, 200 pre-trained predictions by each of 10 models for 15 users with low review count, 15 with medium review count, 15 with high review count and myself initially added to the dataset.
+ It can get info about all items and users from the initial dataset, 200 pre-trained predictions by each of 10 models for 15 users with low review count, 15 with medium review count, 15 with high review count and myself initially added to the dataset.
 
-### Models, FLASK backend and database creation are in the python_files folder as ipynb jupyter files
+ Models, FLASK backend and database creation are in the python_files folder as ipynb jupyter files
 
-### Web app is in src
+ Web app is in src
 
 ![image](https://user-images.githubusercontent.com/87701714/207076818-dffd4baf-4736-4507-b7b3-06549264f133.png)
 
