@@ -6,8 +6,6 @@
 
 ### Models, FLASK backend and database creation are in the python_files folder as ipynb jupyter files
 
-## (Code is not refactored that much for now)
-
 ![image](https://user-images.githubusercontent.com/87701714/207076818-dffd4baf-4736-4507-b7b3-06549264f133.png)
 
 ![image](https://user-images.githubusercontent.com/87701714/207076955-5c6c52e8-ffdc-4422-9820-2ca6a249cc3d.png)
